@@ -39,6 +39,7 @@ const removeEditCacheExec = (id: string, dispatch: Dispatch<any>): void => {
     });
 };
 
+/**@class */
 const articleActionCreator: ArticleActionCreator = {
     getArticles(): any {
         return (dispatch: Dispatch<any>): void => {
