@@ -8,6 +8,9 @@ import { getToast as toast } from "../shared/toast";
 import ArticleCache from "../models/client/ArticleCache";
 import { getStorage as localStorage } from "../shared/storage";
 
+/**
+ * 
+ */
 export const SAVE_ARTICLE_BEGIN: string = "SAVE_ARTICLE_BEGIN";
 export const SAVE_ARTICLE_SUCCESS: string = "SAVE_ARTICLE_SUCCESS";
 export const SAVE_ARTICLE_FAILED: string = "SAVE_ARTICLE_FAILED";
